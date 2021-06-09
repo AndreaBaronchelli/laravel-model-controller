@@ -1,1 +1,11 @@
-//
+//GENERAL
+@import "partials/vars";
+@import "partials/general";
+
+// UTILITIES
+@import "partials/utilities";
+
+// SECTIONS
+@import "partials/header";
+@import "partials/home";
+@import "partials/footer";

@@ -15,7 +15,7 @@
     <body>
 
         {{-- HEADER --}}
-        <header>Header here</header>
+        @include('partials.header')
         
         {{-- MAIN --}}
         <main>
@@ -23,6 +23,6 @@
         </main>
         
         {{-- FOOTER --}}
-        <footer>Footer here</footer>
+        @include('partials.footer')
     </body>
 </html>
